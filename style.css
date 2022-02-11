@@ -1,0 +1,50 @@
+.main {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#win {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/1465670829_1774.gif);
+    background-size: cover;
+    background-position: center;
+    color: blue;
+    font-size: 3rem;
+    gap: 50px;
+}
+
+.canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: none;
+}
+
+.play {
+    border-radius: 5px;
+    font-style: italic;
+    padding: 7px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+
+.play:hover {
+    background: rgb(99, 99, 245);
+    transform: scale(1.3);
+}

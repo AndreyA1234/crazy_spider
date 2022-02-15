@@ -80,9 +80,9 @@ export function drawAim(ctx, aim) {
 }
 
 export function setAimPosition(event, aim) {
-    // let arr = getCoords(event);
-    // let x = arr[0];
-    // let y = arr[1];
+    let arr = getCoords(event);
+    let x = arr[0];
+    let y = arr[1];
     [aim.x, aim.y] = getCoords(event);
 };
 //explosions

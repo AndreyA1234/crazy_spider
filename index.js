@@ -71,8 +71,8 @@ const gameStart = () => {
             updateSpider(spider, 32, 8, 0.3);
             spider.timer--
             if (spider.timer <= 0) {
-                // spider.x = random(-50, canvas.width - 100)
-                // spider.y = random(-70, canvas.height - 120)
+                spider.x = random(-50, canvas.width - 100)
+                spider.y = random(-70, canvas.height - 120)
                 spider.timer = 50;
             }
         }
